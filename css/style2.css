@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+body {
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #FEEBA7;
+}
+ 
+.wrapper{
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    color: #2F2F2F;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 63px;
+  }
+
+.container {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.buttons{
+    padding-right: 75px;
+}
+
+button {
+    background-color: #FFB6C1; /* Light Rose button color */
+    color: #333333; /* Dark text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 15px; /* Rounded button corners */
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #FFA1B5; /* Darker pink for hover */
+    transform: scale(1.05); /* Subtle zoom effect on hover */
+}
+
+.pic{
+    background-image: url(../assets/birthday.jpeg);
+    height: 210px;
+    width: 225px;
+    margin-right: 1300px;
+    margin-top: 235px;
+}

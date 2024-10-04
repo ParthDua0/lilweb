@@ -1,0 +1,52 @@
+body{
+  background-color: #FEEBA7;
+
+}
+
+.wrapper{
+  display: flex;
+  gap: 170px;
+}
+
+.container{
+    padding-left: 700px;
+    padding-top: 300px;
+}
+
+.bhutan {
+    padding: 17px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #FFB6C1; 
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    box-shadow: #FFA1B5 0px 10px 0px 0px;
+    color: #333333;
+    cursor: pointer;
+  }
+  
+  .bhutan:hover {
+    box-shadow: #FFA1B5 0px 7px 0px 0px;
+  }
+  
+  .bhutan:active {
+    background-color: #FFB6C1;
+    box-shadow: #FFA1B5 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+  }
+.pic{
+  background-image: url(../assets/birthday2.jpg);
+  height: 430px;
+  width: 536px;
+  margin-top: 280px;
+}
+p{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5em;
+  color: #2F2F2F;
+  font-weight: bolder;
+  padding: 69px;
+  margin-left: 120px;
+}

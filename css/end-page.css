@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+body {
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #FEE9A4;
+}
+.container{
+  display: flex;
+  padding-top: 200px;
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    color: #2F2F2F;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 63px;
+  }
+.img{
+  background-image: url(../assets/test1.gif);
+  height: 204px;
+  width: 220px;
+}
