@@ -66,6 +66,7 @@
     background-color: #FF69B4; /* Deep Pink background */
     color: #FFFFFF; /* White text color */
     position: absolute;
+    margin-left: -50px;
   }
   
   #noBtn:hover {
