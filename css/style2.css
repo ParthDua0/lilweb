@@ -12,6 +12,10 @@ body {
     background-color: #FEEBA7;
 }
  
+.big-wrapper{
+    overflow: hidden;
+}
+
 .wrapper{
     overflow: hidden;
 }
@@ -53,8 +57,16 @@ button:hover {
 
 .pic{
     background-image: url(../assets/birthday.jpeg);
-    height: 210px;
+    height: 190px;
     width: 225px;
     margin-right: 1300px;
     margin-top: 235px;
+}
+.gif_container {
+    height: 435px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -1140px;
+    margin-top: -430px;
 }
