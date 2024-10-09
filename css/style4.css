@@ -50,3 +50,10 @@ p{
   padding: 69px;
   margin-left: 120px;
 }
+.gif-container {
+  height: 435px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: -450px;
+}
