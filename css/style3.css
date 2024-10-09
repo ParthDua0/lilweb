@@ -1,3 +1,12 @@
+:root{
+  --primary-color: 700px;
+  --logo: url(../assets/background-end.png);
+}
+.dark-theme{
+  --primary-color: 111700px;
+  --logo: url(../assets/milk-happy.jpeg);
+  
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,7 +14,7 @@
   }
 
 body{
-    background: url(../assets/background-end.png);
+    background: var(--logo);
 }
 
 .container{
@@ -109,7 +118,7 @@ button:hover svg {
 
 .container1 {
     height: 200px;
-    margin-left: 700px;
+    margin-left: var(--primary-color);
     margin-top: -45px;
   }
   
