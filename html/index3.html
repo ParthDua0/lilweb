@@ -1,66 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vedi</title>
-    <link rel="stylesheet" href="../css/style3.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vedi</title>
+  <link rel="stylesheet" href="../css/style3.css">
 </head>
+
 <body>
-    <div class="wrapper">
-        <div class="container">
-          <div class="container2">
-            <a href="index2.html">
-              <button>
-                <div class="text">
-                  <span>Go</span>
-                  <span>Back</span>
-                  <span>🥹</span>
-                </div>
-                <div class="clone">
-                  <span>Click</span>
-                  <span>Pls</span>
-                  <span>😁</span>
-                </div>
-                <svg
-                  stroke-width="2"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  class="h-6 w-6"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20px"
-                >
-                  <path
-                    d="M14 5l7 7m0 0l-7 7m7-7H3"
-                    stroke-linejoin="round"
-                    stroke-linecap="round"
-                  ></path>
-                </svg>
-              </button>
-            </a>            
-          </div>
-          <div class="container1">
-            <div class="cloud">
-              <div class="cloud_left"></div>
-              <div class="cloud_right"></div>
+  <div class="wrapper">
+    <div class="container">
+      <div class="container2">
+        <a href="index2.html">
+          <button id="themeToggle">
+            <div class="text">
+              <span>Go</span>
+              <span>Back</span>
+              <span>🥹</span>
             </div>
-            <div class="rain">
-              <div class="drop"></div>
-              <div class="drop"></div>
-              <div class="drop"></div>
-              <div class="drop"></div>
-              <div class="drop"></div>
+            <div class="clone">
+              <span>Click</span>
+              <span>Pls</span>
+              <span>😁</span>
             </div>
-            <div class="surface">
-              <div class="hit"></div>
-              <div class="hit"></div>
-              <div class="hit"></div>
-              <div class="hit"></div>
-              <div class="hit"></div>
-            </div>
+            <svg stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" fill="none" class="h-6 w-6"
+              xmlns="http://www.w3.org/2000/svg" width="20px">
+              <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linejoin="round" stroke-linecap="round"></path>
+            </svg>
+          </button>
+        </a>
+      </div>
+      <div class="container1">
+        <div class="cloud">
+          <div class="cloud_left"></div>
+          <div class="cloud_right"></div>
         </div>
+        <div class="rain">
+          <div class="drop"></div>
+          <div class="drop"></div>
+          <div class="drop"></div>
+          <div class="drop"></div>
+          <div class="drop"></div>
         </div>
+        <div class="surface">
+          <div class="hit"></div>
+          <div class="hit"></div>
+          <div class="hit"></div>
+          <div class="hit"></div>
+          <div class="hit"></div>
+        </div>
+      </div>
     </div>
+  </div>
+  <script>
+    const themeToggle = document.getElementById('themeToggle');
+    const body = document.body;
+
+    themeToggle.addEventListener('mouseover', () => {
+      body.classList.add('dark-theme');
+    });
+
+    themeToggle.addEventListener('mouseout', () => {
+      body.classList.remove('dark-theme');
+    });
+  </script>
 </body>
+
 </html>
